@@ -23,7 +23,7 @@ Author: jyrki.alakuijala@gmail.com (Jyrki Alakuijala)
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "deflate.h"
+#include "deflate1.h"
 #include "lz77.h"
 #include "squeeze.h"
 #include "tree.h"

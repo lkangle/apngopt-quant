@@ -1,4 +1,4 @@
-  APNG Optimizer 1.4
+  APNG Optimizer 1.4-quant
 
   Optimizes APNG animations.
 
@@ -11,6 +11,7 @@
 
 --------------------------------
 
+```
   Usage:
 
 apngopt [options] anim.png [anim_opt.png]
@@ -21,34 +22,39 @@ apngopt [options] anim.png [anim_opt.png]
 -z1  : 7zip compression (default)
 -z2  : zopfli compression
 -i## : number of iterations, default -i15
+-q## : number of max quality, default -q85
+```
 
 --------------------------------
 
-  Changes in version 1.4:
+#### Changes in version 1.4-quant:
+- [libimagequant-2.x](https://github.com/ImageOptim/libimagequant/tree/2.x) is used for image compression
+
+#### Changes in version 1.4:
 
 - Codebase updated (based on apngdis 2.8, apngasm 2.9)
 
 
-  Changes in version 1.3:
+#### Changes in version 1.3:
 
 - Codebase updated (based on apngdis 2.7, apngasm 2.9)
 - Added 7zip and Zopfli compression options.
 
 
-  Changes in version 1.2:
+#### Changes in version 1.2:
 
 - Codebase updated (based on apngdis 2.5, apngasm 2.7)
 - Optimization: join identical frames
 
 
-  Changes in version 1.1:
+#### Changes in version 1.1:
 
 - Codebase updated (based on apngdis 2.4, apngasm 2.5)
 - Better optimization
 - zlib license
 
 
-  Changes in version 1.0:
+#### Changes in version 1.0:
 
 - Initial release (based on apngdis 2.3, apngasm 2.3)
 

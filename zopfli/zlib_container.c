@@ -22,7 +22,7 @@ Author: jyrki.alakuijala@gmail.com (Jyrki Alakuijala)
 
 #include <stdio.h>
 
-#include "deflate.h"
+#include "deflate1.h"
 
 
 /* Calculates the adler32 checksum of the data */

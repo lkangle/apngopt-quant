@@ -17,7 +17,7 @@ Author: lode.vandevenne@gmail.com (Lode Vandevenne)
 Author: jyrki.alakuijala@gmail.com (Jyrki Alakuijala)
 */
 
-#include "deflate.h"
+#include "deflate1.h"
 
 #include <assert.h>
 #include <stdio.h>

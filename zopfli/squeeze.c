@@ -24,7 +24,7 @@ Author: jyrki.alakuijala@gmail.com (Jyrki Alakuijala)
 #include <stdio.h>
 
 #include "blocksplitter.h"
-#include "deflate.h"
+#include "deflate1.h"
 #include "tree.h"
 #include "util.h"
 

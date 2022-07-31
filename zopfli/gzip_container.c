@@ -22,7 +22,7 @@ Author: jyrki.alakuijala@gmail.com (Jyrki Alakuijala)
 
 #include <stdio.h>
 
-#include "deflate.h"
+#include "deflate1.h"
 
 /* Table of CRCs of all 8-bit messages. */
 static unsigned long crc_table[256];
